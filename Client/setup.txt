@@ -1,0 +1,8 @@
+python3 -m pip install pip
+pip3 install pipenv
+cd dev/client_side
+pipenv install --python 3.8
+pipenv shell
+pipenv install requests numpy pyqt5 opencv-python-headless
+cd ../../
+python main.py
